@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Base 64 algorithm </title>
+	<link rel="stylesheet" href="220101040.css">
+</head>
+<body>
+	<form onsubmit="return false">
+		<label	for="Str">String:  </label>
+		<input id="Str" type="text"> <br>
+		
+		<label for="algo" > Algorithm </label>
+		<select id="algo">
+			<option	value="5"> Base 32 </option>
+			<option	value="6"> Base 64 </option>
+			<option	value="32"> Base 85 </option>
+		</select>
+		<br>
+		<button	onclick="myfunction()">Submit </button>
+	</form>
+	<p>Answer: <span id="Ans"> </span> </p>
+	
+    <div	id="demonsTag">
+        <table  id="demonsTable">
+            <tr>
+                <td>Input</td><td>ASCII value</td><td>Binary Conversion</td>
+            </tr>
+            
+        </table>
+		<div	id="demonsTheory1">
+		
+		</div>
+		<table  id="demonsTable1">
+            <tr>
+                <td>Binary Club Bits</td><td>Decimal Convesion</td><td>Base Value</td>
+            </tr>
+            
+        </table>
+
+		<div id="demonsTheory2">
+
+		</div>
+
+    </div>
+
+	
+
+
+	<script	src="220101040.js"> </script>
+</body>
+</html>

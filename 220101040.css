@@ -1,0 +1,30 @@
+*
+{
+	padding:0px;
+	margin:0px;
+}
+
+form label, form input, form select, form button
+{
+	font-size:medium;
+	font-weight:bold;
+	margin: 20px 0px 0px 10px;
+}
+
+form button
+{
+	position:relative;
+	left:30%;
+}
+
+p
+{
+	font-size:medium;
+	font-weight:bold;
+	margin: 20px 0px 0px 10px;
+}
+
+div table
+{
+    width:100%;
+}
